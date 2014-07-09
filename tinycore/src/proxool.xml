@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<something-else-entirely>
+	<proxool>
+		<alias>tinycoreProx</alias>
+		<driver-url>jdbc:postgresql://localhost:5432/tinycore</driver-url>
+		<driver-class>org.postgresql.Driver</driver-class>
+		<driver-properties>
+			<property name="user" value="postgres" />
+			<property name="password" value="postgres" />
+		</driver-properties>
+		<house-keeping-sleep-time>90000</house-keeping-sleep-time>
+		<maximum-new-connections>20</maximum-new-connections>
+		<prototype-count>5</prototype-count>
+		<maximum-connection-count>100</maximum-connection-count>
+		<minimum-connection-count>10</minimum-connection-count>
+	</proxool>
+</something-else-entirely>

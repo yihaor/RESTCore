@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+    	<property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		<property name="show_sql">true</property>
+		<property name="hibernate.connection.provider_class">org.hibernate.connection.ProxoolConnectionProvider</property>
+		<property name="hibernate.proxool.pool_alias">tinycoreProx</property> 
+		<property name="hibernate.proxool.xml">proxool.xml</property>
+		<property name="hibernate.connection.release_mode">auto</property>
+		<property name="hibernate.cglib.use_reflection_optimizer">true</property>
+		
+    	<!-- mappings for annotated classes -->
+    	<!-- <mapping package="db.yihao" /> -->
+    	
+    	<mapping class="db.yihao.token.Token" ></mapping>
+    	<mapping class="db.yihao.requestlog.RequestLog" ></mapping>
+    </session-factory>
+</hibernate-configuration>

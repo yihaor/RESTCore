@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="tinycore"
+  id="myeclipse.1392882245095"
+  context-root="/tinycore"
+  j2ee-spec="5.0"
+  archive="tinycore.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

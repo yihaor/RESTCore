@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/BB6_LIB"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/BB6_UTL"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/BB6_BSL"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/BB6_DAO"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_7.0"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="BSFBuilder" default="all" basedir="../">
+	<description>Create BB6_BSF.jar JAR and copy to WEB</description>
+	<property name="bindir" location="${basedir}/bin" />
+	<property name="webfile" location="../tinycore/WebRoot/WEB-INF/lib/BB6_BSF.jar" />
+	
+	<!-- 初始化任务  -->
+    <target name="init" />
+	<!-- 编译  -->
+    <target name="compile" depends="init" description="compile the source files" />
+    <!-- 打jar包  -->
+    <target name="jar" depends="compile" description="create jar file" >
+		<jar basedir="${bindir}" jarfile="${webfile}" update="false" />
+	</target>
+	
+	<target name="all" depends="jar" />
+    
+</project>
